@@ -1,0 +1,70 @@
+backend:
+  name: github
+  repo: jakacraft/jakacraft-site
+  branch: main
+  base_url: https://sveltia-cms-auth.YOUR-SUBDOMAIN.workers.dev  # <-- change this (Step 3 below)
+
+site_url: https://jakacraft.is-a.dev
+display_url: https://jakacraft.is-a.dev
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "site"
+    label: "Jakacraft Site"
+    files:
+      - name: "site"
+        label: "Site Content"
+        file: "content/site.json"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow line", name: "eyebrow", widget: "string" }
+              - { label: "Headline", name: "title", widget: "text" }
+              - { label: "Intro line", name: "lede", widget: "text" }
+
+          - label: "Terminal lines"
+            name: "terminal"
+            widget: "list"
+            fields:
+              - { label: "Prompt", name: "prompt", widget: "string" }
+              - { label: "Output", name: "out", widget: "string" }
+
+          - label: "About"
+            name: "about"
+            widget: "object"
+            fields:
+              - label: "Paragraphs"
+                name: "paragraphs"
+                widget: "list"
+                field: { label: "Paragraph", name: "text", widget: "text" }
+              - label: "Stats"
+                name: "stats"
+                widget: "list"
+                fields:
+                  - { label: "Label", name: "k", widget: "string" }
+                  - { label: "Value", name: "v", widget: "string" }
+
+          - label: "Projects"
+            name: "projects"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+              - { label: "Tags (comma separated)", name: "tags", widget: "string" }
+              - { label: "Link URL", name: "url", widget: "string" }
+
+          - label: "Socials"
+            name: "socials"
+            widget: "list"
+            fields:
+              - label: "Platform"
+                name: "icon"
+                widget: "select"
+                options: ["github", "x", "youtube", "discord", "other"]
+              - { label: "Display name", name: "name", widget: "string" }
+              - { label: "Handle", name: "handle", widget: "string" }
+              - { label: "Link URL", name: "url", widget: "string" }
