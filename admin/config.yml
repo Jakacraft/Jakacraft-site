@@ -2,7 +2,7 @@ backend:
   name: github
   repo: jakacraft/jakacraft-site
   branch: main
-  base_url: sveltia-cms-auth.jakeclarke814.workers.dev
+  base_url: https://sveltia-cms-auth.jakeclarke814.workers.dev
 
 site_url: https://jakacraft.is-a.dev
 display_url: https://jakacraft.is-a.dev
