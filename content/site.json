@@ -1,36 +1,68 @@
 {
   "hero": {
-    "eyebrow": "// developer & builder",
-    "title": "I build things until they work, then keep going anyway.",
-    "lede": "I'm Jakacraft — I write code, ship small tools, and spend more late nights than I'd admit debugging things that were \"almost done\" three hours ago."
+    "eyebrow": "// developer & student",
+    "title": "I build things until they work, then hope it doesn't break",
+    "lede": "I'm Jakacraft — I like experimenting with things, and I have spent more time than I like to admit finishing up things that where \"done\" three hours ago"
   },
   "terminal": [
-    { "prompt": "$ whoami", "out": "jakacraft" },
-    { "prompt": "$ role", "out": "developer, builder, tinkerer" },
-    { "prompt": "$ status", "out": "currently shipping something" }
+    {
+      "prompt": "$ whoami",
+      "out": "jakacraft"
+    },
+    {
+      "prompt": "$ role",
+      "out": "developer, student"
+    },
+    {
+      "prompt": "$ status",
+      "out": "probably drinking coffee"
+    }
   ],
   "about": {
     "paragraphs": [
       "I'm Jakacraft — a self-taught developer who got into this because I wanted to build the things I couldn't find, and stayed because I like the moment something finally compiles after an hour of staring at the same error.",
-      "Most of what I make starts as a small, slightly stubborn side project: a tool that fixes one annoyance, a script that saves me ten minutes, a game system that only makes sense to me. Some of them turn into things other people actually use.",
-      "When I'm not writing code, I'm usually taking it apart to see how it works, or figuring out why it broke."
+      "Most of what I make starts as a small, slightly stubborn side project: a tool that fixes one annoyance, a script that saves me ten minutes, a game system that only makes sense to me.",
+      "And yes, I still barely know what I'm doing."
     ],
     "stats": [
-      { "k": "focus", "v": "web tools & game systems" },
-      { "k": "stack", "v": "JS / Python / Node" },
-      { "k": "status", "v": "building something new" },
-      { "k": "based", "v": "on the internet, mostly" }
+      {
+        "k": "focus",
+        "v": "tools & cyber security"
+      },
+      {
+        "k": "stack",
+        "v": "Rust / Python"
+      },
+      {
+        "k": "status",
+        "v": "taking a break to learn new things"
+      },
+      {
+        "k": "based",
+        "v": "on the internet, mostly"
+      }
     ]
   },
   "projects": [
-    { "name": "block-forge", "desc": "A lightweight toolkit for spinning up and managing small game servers without the usual config headache.", "tags": "Node.js, WebSockets", "url": "#" },
-    { "name": "pixel-notes", "desc": "A minimal notes app that works offline first and syncs quietly when it can.", "tags": "React, IndexedDB", "url": "#" },
-    { "name": "cli-buddy", "desc": "A small command-line helper for the scripts I run often enough to be annoyed by typing them out.", "tags": "Python, CLI", "url": "#" }
+    {
+      "name": "caffeine-dungeons",
+      "desc": "A small QoL mod for the Minecraft server DungeonDodge, mostly with features I want to make my life easier",
+      "tags": "Java, Willpower",
+      "url": "https://github.com/Jakacraft/caffeine-dungeons"
+    }
   ],
   "socials": [
-    { "icon": "github", "name": "GitHub", "handle": "@jakacraft", "url": "#" },
-    { "icon": "x", "name": "X", "handle": "@jakacraft", "url": "#" },
-    { "icon": "youtube", "name": "YouTube", "handle": "@jakacraft", "url": "#" },
-    { "icon": "discord", "name": "Discord", "handle": "jakacraft", "url": "#" }
+    {
+      "icon": "github",
+      "name": "GitHub",
+      "handle": "@jakacraft",
+      "url": "https://github.com/Jakacraft"
+    },
+    {
+      "icon": "discord",
+      "name": "Discord",
+      "handle": "jakacraft",
+      "url": "#"
+    }
   ]
 }
